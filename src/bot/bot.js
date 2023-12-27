@@ -19,7 +19,6 @@ class Bot {
     async initializeJokes() {
         try {
             this.jokes = await getJokes();
-            console.log("Jokes loaded");
         } catch (error) {
             console.error("Failed to load jokes:", error);
         }
@@ -33,7 +32,6 @@ class Bot {
             const text = msg.text || '';
             const userLang = this.userLanguages[chatId] || this.defaultLang;
 
-            // Handling '/start' command to send a welcome message
             if (text === '/start') {
                 await this.sendWelcomeMessage(chatId, userLang);
             }

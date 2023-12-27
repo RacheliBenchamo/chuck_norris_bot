@@ -24,8 +24,6 @@ const translateText = async (text, targetLang) => {
         return translation;
 
     } catch (error) {
-        console.error("Translation API Error:", error);
-        // Returning a generic error message; log for detailed error.
         return "Error occurred during translation.";
     }
 };

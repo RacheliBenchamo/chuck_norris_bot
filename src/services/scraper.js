@@ -21,14 +21,14 @@ const getJokes = async () => {
         // Using cheerio to parse HTML and extract jokes
         const $ = cheerio.load(response.data);
         $('ol li').each((i, el) => {
-            jokesList.push($(el).text().trim()); // Collecting jokes into an array
+            jokesList.push($(el).text().trim());
         });
 
     } catch (error) {
-        console.error("Error fetching jokes:", error); // Logging error
+        console.error("Error fetching jokes:", error);
     }
 
-    return jokesList; // Returning list of jokes
+    return jokesList;
 };
 
 module.exports = getJokes;
