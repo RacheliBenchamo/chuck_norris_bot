@@ -59,4 +59,4 @@ jobs:
           app-name: 'chucknorrisjokebot'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_54870F21697D4F20871EFD58A716C3B3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_62F874F1172D4F4DB59A0AA8B63C9DF9 }}
