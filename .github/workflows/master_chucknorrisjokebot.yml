@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js version
         uses: actions/setup-node@v3
         with:
-          node-version: '20.10.0'
+          node-version: '20.x'
 
       - name: npm install, build, and test
         run: |
@@ -59,4 +59,4 @@ jobs:
           app-name: 'chucknorrisjokebot'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_54870F21697D4F20871EFD58A716C3B3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_201582899D0149EDB6CFCA5AD1A03556 }}
