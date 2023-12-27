@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "echo \"Skipping tests\""'
+  "test": "echo \"Skipping tests\""
   },
   "author": "",
   "license": "ISC",
