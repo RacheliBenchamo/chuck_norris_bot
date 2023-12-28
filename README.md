@@ -9,7 +9,7 @@ The Chuck Norris Joke Bot is a Telegram bot hosted on Microsoft Azure Web App us
 - **Interactive Commands:** Responds to specific user commands for a dynamic and engaging user experience.
   
 ## Usage
-Click here to jump to Telegram and start a conversation with the bot: [@Racheli_chuck_norris_bot](https://web.telegram.org/a/#6714644162).
+Click here to jump to Telegram and start a conversation with the bot: [@Chuck_Norris_Bot](https://web.telegram.org/a/#6714644162).
 
 You can interact with it via the following commands:
 
